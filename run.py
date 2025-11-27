@@ -19,3 +19,9 @@ def guide_rule():
     print("give them coordinate for row and column from 0 to 10")
     print("once 5 ships has been sunk,the game will be over")
     print("have fun!")
+    
+def create_battlefield(map_size):
+    """
+    function to create a map based on size
+    """
+    return [["_"] * map_size for _ in range(map_size)]
